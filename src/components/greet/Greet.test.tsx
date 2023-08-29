@@ -9,7 +9,7 @@ describe('Greet', () => {
   });
 
   test('renders with a name', () => {
-    render(<Greet name='Akash' />);
+    render(<Greet name="Akash" />);
     const textElement = screen.getByText('Hello, Akash');
     expect(textElement).toBeInTheDocument();
   });

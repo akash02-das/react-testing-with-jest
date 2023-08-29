@@ -10,7 +10,7 @@ function App() {
 
   return (
     <AppProviders>
-      <div className='App'>
+      <div className="App">
         <Application />
         <Skills skills={skills} />
         <Counter />

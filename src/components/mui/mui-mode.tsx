@@ -3,5 +3,5 @@ import { useTheme } from '@mui/material/styles';
 
 export const MuiMode = () => {
   const theme = useTheme();
-  return <Typography component='h1'>{`${theme.palette.mode} mode`}</Typography>;
+  return <Typography component="h1">{`${theme.palette.mode} mode`}</Typography>;
 };
